@@ -5,15 +5,31 @@
     <meta charset='utf-8' />
     <meta name="author" content="Joanna Broad"> <!-- tells google i made this -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- helps it to look good on mobile as well as pc -->
-    <title></title>
+    <title>Joanna Broad</title>
     <!-- bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!--own css -->
-    <link rel="stylesheet" href="">
+    <link type="text/css" href="style.css" rel="stylesheet">
 </head>
 
 <body>
-
+<nav class="navbar justify-content-end ">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Portfolio</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Project 1</a></li>
+                    <li><a class="dropdown-item" href="#">Project 2</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Me</a>
+            </li>
+        </ul>
+    </nav>
     <!--  bootstrap JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
