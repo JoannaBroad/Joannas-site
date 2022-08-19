@@ -1,7 +1,19 @@
 body{
     background-color: #FEFBF3;
     font-family: 'Dosis', sans-serif;
-    
+    color: #454545;
+    font-size: 20px;
+}
+a{
+    color: #454545;
+    -webkit-transition: color 0.3s, font-size 0.3s;
+       -moz-transition: color 0.3s, font-size 0.3s;
+         -o-transition: color 0.3s, font-size 0.3s;
+            transition: color 0.3s, font-size 0.3s;
+}
+a:hover{
+    color: #79B4B7;
+    font-size: 22px;
 }
 nav {
     background-color: #9D9D9D;
