@@ -1,3 +1,4 @@
+/*over all styling */
 body {
     background-color: #FEFBF3;
     font-family: 'Dosis', sans-serif;
@@ -5,7 +6,16 @@ body {
     font-size: 20px;
     position: relative;
 }
-
+h3{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 2%;
+}
+h4{
+        font-family: 'Lobster', cursive;
+        text-align: center;
+}
 a {
     color: #454545;
     -webkit-transition: color 0.3s, font-size 0.3s;
@@ -18,7 +28,7 @@ a:hover {
     color: #79B4B7;
     font-size: 22px;
 }
-
+/* nav styling */
 nav {
     background-color: #9D9D9D;
 }
@@ -26,14 +36,42 @@ nav {
 a.nav-link {
     color: white;
 }
-a.nav-link:hover{
+
+a.nav-link:hover {
     color: white;
 }
-.nav-pills .nav-link.active{
+
+.nav-pills .nav-link.active {
     background-color: #79B4B7;
 }
-
+/* section styling*/
 section {
     padding: 3%;
+    padding-top: 5%;
+}
+.tag {
+    color: #9D9D9D;
+}
+
+#intro {
+    text-align: center;
     margin-bottom: 2%;
+}
+
+
+.img-of-me {
+    border-radius: 50px;
+}
+
+#floatingInput {
+    width: 75%;
+}
+
+#floatingEmail {
+    width: 75%;
+}
+
+#floatingTextarea {
+    width: 75%;
+    height: 120px;
 }
