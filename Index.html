@@ -105,17 +105,16 @@
             <div class="row">
                 <div class="col-6">
                     <form method="POST" data-netlify="true" name="contact">
-                        <!-- taken from get forms -->
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInput" >
+                            <input type="text" class="form-control" id="floatingInput" name="contactname" >
                             <label for="floatingInput">Got a name?</label>
                         </div>
                         <div class="form-floating">
-                            <input type="email" class="form-control" id="floatingEmail" >
+                            <input type="email" class="form-control" id="floatingEmail" name="contactemail" >
                             <label for="floatingEmail">And an Email?</label>
                         </div>
                         <div class="form-floating">
-                            <textarea class="form-control"  id="floatingTextarea"></textarea>
+                            <textarea class="form-control"  id="floatingTextarea" name="contacttext"></textarea>
                             <label for="floatingTextarea">Got and Comments for me?</label>
                         </div>
                         <button type="submit" class="btn btn-primary">Send</button>
