@@ -11,7 +11,7 @@ h3 {
     font-family: 'Lobster', cursive;
     text-align: center;
     font-size: 33px;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 h4 {
@@ -67,7 +67,7 @@ section {
 /*into section*/
 #intro {
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .img-of-me {
@@ -83,23 +83,27 @@ section {
 
 /* contact section*/
 #floatingInput {
-    width: 75%;
+    width: 90%;
 }
 
 #floatingEmail {
-    width: 75%;
+    width: 90%;
 }
 
 #floatingTextarea {
-    width: 75%;
+    width: 90%;
     height: 120px;
 }
 
 .contact-info {
-    text-align: center;
+    text-align: Left;
 }
 
 footer{
     background-image: url("images/watercolors-gfa661b24e_1920.jpg");
-    height: 50px
+    height: 50px;
+    text-align: center;
+}
+#certify {
+    text-align: center;
 }
