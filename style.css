@@ -1,6 +1,6 @@
 /*over all styling */
 body {
-   /* background-color: #FEFBF3;*/
+    /* background-color: #FEFBF3;*/
     font-family: 'Dosis', sans-serif;
     color: #27212A;
     font-size: 20px;
@@ -72,15 +72,11 @@ section {
 }
 
 .img-of-me {
+    display: block;
     border-radius: 50px;
-     -webkit-transition:  50px;
-    -moz-transition:  50px;
-    -o-transition:  50px;
-    box-shadow: 10px 10px 10px 0px grey;
-     -webkit-transition: 10px 10px 10px 0px grey;
-    -moz-transition: 10px 10px 10px 0px grey;
-    -o-transition: 10px 10px 10px 0px grey;
-}
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
 
 /* contact section*/
 #floatingInput {
@@ -100,11 +96,12 @@ section {
     text-align: Left;
 }
 
-footer{
+footer {
     background-image: url("images/watercolors-gfa661b24e_1920.jpg");
     height: 50px;
     text-align: center;
 }
+
 #certify {
     text-align: center;
 }
